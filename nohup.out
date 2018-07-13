@@ -1,0 +1,23 @@
+2018-07-13 11:54:26.095  INFO 23060 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2530c12: startup date [Fri Jul 13 11:54:26 UTC 2018]; root of context hierarchy
+2018-07-13 11:54:27.044  INFO 23060 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-13 11:54:27.308  INFO 23060 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$753e65fd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.5.3.RELEASE)
+
+2018-07-13 11:54:28.572  INFO 23060 --- [           main] d.DiscoveryMicroserviceServerApplication : No active profile set, falling back to default profiles: default
+2018-07-13 11:54:28.613  INFO 23060 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@9629756: startup date [Fri Jul 13 11:54:28 UTC 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2530c12
+2018-07-13 11:54:31.067  INFO 23060 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=592a90cb-7987-3a0b-bbeb-1b916f10ff19
+2018-07-13 11:54:31.134  INFO 23060 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-13 11:54:31.457  INFO 23060 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration' of type [org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration$$EnhancerBySpringCGLIB$$8b510941] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-13 11:54:31.494  INFO 23060 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$753e65fd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-13 11:54:32.101  INFO 23060 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 1111 (http)
+2018-07-13 11:54:32.137  INFO 23060 --- [           main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-07-13 11:54:32.138  INFO 23060 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-07-13 11:54:32.317  INFO 23060 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-07-13 11:54:32.317  INFO 23060 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3704 ms
